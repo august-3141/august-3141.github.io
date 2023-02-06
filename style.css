@@ -1,24 +1,19 @@
 * {
-
     color:black;
     font-family: Verdana;
     text-align: center;
     margin-top: 5%;
-
 }
 
 @keyframes woo {
-
     /* cube go brr */
 
-    0% {background-color:deepskyblue;  margin-left: 40%;}
-    50% {background-color: aquamarine; margin-left: 60%; transform: rotate(90deg);}
-    100% {background-color:deepskyblue;  margin-left: 40%; transform:rotate(180deg);}
-
+    0% {background-color:rgb(202, 20, 81);  margin-left: 40%;}
+    50% {background-color: rgb(228, 108, 52); margin-left: 60%; transform: rotate(90deg);}
+    100% {background-color:rgb(202, 20, 81);;  margin-left: 40%; transform:rotate(180deg);}
 }
 
 .cube {
-
     width:50px;
     height:50px;
     animation-name: woo;
@@ -26,5 +21,4 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     border-radius: 3px;
-
 }
