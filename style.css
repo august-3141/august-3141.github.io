@@ -33,6 +33,7 @@
 
 .button {
 
+    color: rgb(255, 255, 255);
     width:250px;
     height:50px;
     animation-name: wah;
@@ -40,11 +41,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     border-radius: 3px;
-
-}
-
-.button.hover {
-
     cursor: pointer;
+    border: none;
 
 }
