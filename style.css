@@ -49,10 +49,7 @@
     font-size: large;
     width:250px;
     height:50px;
-    animation-name: wah;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.35);
     border: none;
     cursor: pointer;
 
