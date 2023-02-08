@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 * {
-    color:rgb(255, 255, 255);
-    background-color: rgb(53, 51, 56);
-    font-family: Verdana;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: "Quicksand";
     text-align: center;
     margin-top: 5%;
 }
@@ -17,9 +19,9 @@
 @keyframes wah {
     /* cube go brr */
 
-    0% {background-color:rgb(202, 20, 81);}
-    50% {background-color: rgb(228, 108, 52);}
-    100% {background-color:rgb(202, 20, 81);}
+    0% {box-shadow: 0 0px 15px 5px rgba(202, 20, 81, 1);}
+    50% {box-shadow: 0 0px 15px 5px rgba(228, 108, 52, 1);}
+    100% {box-shadow: 0 0px 15px 5px rgba(202, 20, 81, 1);}
 }
 
 @keyframes bah {
@@ -42,7 +44,8 @@
 
 .button {
 
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: white;
     font-size: large;
     width:250px;
     height:50px;
@@ -50,9 +53,8 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    border-radius: 3px;
-    cursor: pointer;
     border: none;
+    cursor: pointer;
 
 }
 
